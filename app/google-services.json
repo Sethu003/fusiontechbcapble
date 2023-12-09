@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "992383886146",
+    "project_id": "fusiontech-3c423",
+    "storage_bucket": "fusiontech-3c423.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992383886146:android:e0bddc0cbf1b77dc35dedb",
+        "android_client_info": {
+          "package_name": "com.example.fusiontechbcapble"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSnlSvrbuGfiEYtGzXGvpiO1o5Dbl6BAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
