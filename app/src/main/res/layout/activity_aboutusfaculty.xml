@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".aboutus">
+    tools:context=".aboutuscaculty">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -27,7 +27,7 @@
                     android:layout_margin="5dp"
                     android:background="@color/white"
                     android:elevation="3dp"
-                    android:src="@drawable/photo"/>
+                    android:src="@drawable/unknown"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -35,7 +35,7 @@
                     android:layout_gravity="center"
                     android:paddingLeft="1.1in"
 
-                    android:text="Student Co-ordinators"
+                    android:text="Coordinator: Mr. G. Mahesh Kumar,(Coordinator BCA)"
                     android:textColor="@color/black"
                     android:textSize="23dp"
 
@@ -59,7 +59,7 @@
                     android:layout_margin="5dp"
                     android:background="@color/white"
                     android:elevation="3dp"
-                    android:src="@drawable/photo"/>
+                    android:src="@drawable/unknown"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -67,7 +67,7 @@
                     android:layout_gravity="center"
                     android:paddingLeft="1.1in"
 
-                    android:text="Public Relations"
+                    android:text="Incharge: Ms. S. Jayalaxmi, Lecturer, Department of Computer Science"
                     android:textColor="@color/black"
                     android:textSize="23dp"
 
@@ -90,7 +90,7 @@
                     android:layout_margin="5dp"
                     android:background="@color/white"
                     android:elevation="3dp"
-                    android:src="@drawable/photo"/>
+                    android:src="@drawable/unknown"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -98,7 +98,7 @@
                     android:layout_gravity="center"
                     android:paddingLeft="1.1in"
 
-                    android:text="Technical Heads"
+                    android:text="Ms. K. PADMA PRIYA (Faculty Member)"
                     android:textColor="@color/black"
                     android:textSize="23dp"
 
@@ -121,7 +121,7 @@
                     android:layout_margin="5dp"
                     android:background="@color/white"
                     android:elevation="3dp"
-                    android:src="@drawable/photo"/>
+                    android:src="@drawable/unknown"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -129,7 +129,7 @@
                     android:layout_gravity="center"
                     android:paddingLeft="1.1in"
 
-                    android:text="Social Media and Report Writing"
+                    android:text="Ms. B. DIVYA REKHA (Faculty Member)"
                     android:textColor="@color/black"
                     android:textSize="23dp"
 
@@ -152,7 +152,7 @@
                     android:layout_margin="5dp"
                     android:background="@color/white"
                     android:elevation="3dp"
-                    android:src="@drawable/photo"/>
+                    android:src="@drawable/unknown"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -160,7 +160,7 @@
                     android:layout_gravity="center"
                     android:paddingLeft="1.1in"
 
-                    android:text="Fine Arts"
+                    android:text="	Mr. P. SRINIVASA (Faculty Member)"
                     android:textColor="@color/black"
                     android:textSize="23dp"
 
@@ -183,7 +183,7 @@
                     android:layout_margin="5dp"
                     android:background="@color/white"
                     android:elevation="3dp"
-                    android:src="@drawable/photo"/>
+                    android:src="@drawable/unknown"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -191,7 +191,7 @@
                     android:layout_gravity="center"
                     android:paddingLeft="1.1in"
 
-                    android:text="Logistics"
+                    android:text=" 	Ms. M. AMITHA (Faculty Member)"
                     android:textColor="@color/black"
                     android:textSize="23dp"
 
@@ -214,7 +214,7 @@
                     android:layout_margin="5dp"
                     android:background="@color/white"
                     android:elevation="3dp"
-                    android:src="@drawable/photo"/>
+                    android:src="@drawable/unknown"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -222,7 +222,7 @@
                     android:layout_gravity="center"
                     android:paddingLeft="1.1in"
 
-                    android:text="Photography"
+                    android:text=" 	Ms. SHARON ROSY (Faculty Member)"
                     android:textColor="@color/black"
                     android:textSize="23dp"
 
@@ -245,7 +245,7 @@
                     android:layout_margin="5dp"
                     android:background="@color/white"
                     android:elevation="3dp"
-                    android:src="@drawable/photo"/>
+                    android:src="@drawable/unknown"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -253,7 +253,69 @@
                     android:layout_gravity="center"
                     android:paddingLeft="1.1in"
 
-                    android:text=" Knowledge Sharing"
+                    android:text="	Ms. B. VIJETHA (Faculty Member)"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/white">
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp"
+                    android:src="@drawable/unknown"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+
+                    android:text="Mr. SAUMESH ROUTRAY (Faculty Member)"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/white">
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="3dp"
+                    android:src="@drawable/unknown"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+
+                    android:text="Ms. J.LAKSHMI VYDEHI (Faculty Member)"
                     android:textColor="@color/black"
                     android:textSize="23dp"
 
