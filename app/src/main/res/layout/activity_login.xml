@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/interfacetech"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/interfacetech"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Signin">
+    tools:context=".LoginActivity">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -28,7 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="28dp">
+            android:padding="38dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -47,7 +48,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Username"
+                android:text="Email id"
                 android:textStyle="bold"
                 android:alpha="0.7"/>
             <EditText
@@ -64,7 +65,7 @@
                 android:textStyle="bold"
                 android:alpha="0.7"/>
             <EditText
-               android:id="@+id/password1"
+                android:id="@+id/password1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"/>
@@ -72,20 +73,34 @@
             <View
                 android:layout_width="wrap_content"
                 android:layout_height="10dp"/>
-            <com.google.android.material.button.MaterialButton
+
+            <TextView
+                android:id="@+id/forgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.9"
+                android:text="forgot password"
+                android:textColor="#041B9E"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"/>
+
+            <Button
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:id="@+id/button"
+                android:id="@+id/logbutton"
                 android:text="Login"
                 app:cornerRadius="32dp"/>
             <View
                 android:layout_width="wrap_content"
                 android:layout_height="10dp"/>
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -114,3 +129,4 @@
 
 
 </RelativeLayout>
+
