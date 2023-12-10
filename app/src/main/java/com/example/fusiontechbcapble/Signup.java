@@ -16,13 +16,13 @@ public class Signup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
-
+/*
         EditText username, password, repassword;
         Button signup, signin;
         DBHelper DB;
 
         username = (EditText) findViewById(R.id.username);
-        password = (EditText) findViewById(R.id.password);
+        password = (EditText) findViewById(R.id.foremail);
         repassword = (EditText) findViewById(R.id.repassword);
         signup = (Button) findViewById(R.id.btnsignup);
         signin = (Button) findViewById(R.id.btnsignin);
@@ -44,7 +44,7 @@ public class Signup extends AppCompatActivity {
                             Boolean insert = DB.insertData(user, pass);
                             if(insert==true){
                                 Toast.makeText(Signup.this, "Registered successfully", Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(getApplicationContext(),fusiontechbcapble2.class);
+                                Intent intent = new Intent(getApplicationContext(), Signin.class);
                                 startActivity(intent);
                             }else{
                                 Toast.makeText(Signup.this, "Registration failed", Toast.LENGTH_SHORT).show();
@@ -62,9 +62,11 @@ public class Signup extends AppCompatActivity {
         signin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), fusiontechbcapble2.class);
+                Intent intent = new Intent(getApplicationContext(), Signin.class);
                 startActivity(intent);
             }
         });
+
+ */
     }
 }
