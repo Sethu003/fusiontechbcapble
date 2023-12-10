@@ -23,11 +23,9 @@ public class LoginActivity extends AppCompatActivity {
     FirebaseFirestore firestore;
     ProgressDialog progressDialog;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
 
         binding=ActivityLoginBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
@@ -85,7 +83,6 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
-
         binding.forgotPassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -95,17 +92,5 @@ public class LoginActivity extends AppCompatActivity {
 
 
         //setContentView(R.layout.activity_login);
-    }
-
-    @Override
-    protected void onStart(){
-        super.onStart();
-        if(auth.getCurrentUser() != null){
-            Toast.makeText(LoginActivity.this,"Already Logged In",Toast.LENGTH_SHORT).show();
-            startActivity(new Intent(LoginActivity.this,fusiontechbcapble3.class));
-            finish();
-        } else {
-            Toast.makeText(LoginActivity.this,"Login",Toast.LENGTH_SHORT).show();
-        }
     }
 }
