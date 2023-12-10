@@ -1,6 +1,7 @@
 package com.example.fusiontechbcapble;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +14,7 @@ public class fusiontechbcapble3 extends AppCompatActivity {
 
     Button button;
     FirebaseAuth auth;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +30,17 @@ public class fusiontechbcapble3 extends AppCompatActivity {
                 Intent intent=new Intent(fusiontechbcapble3.this,LoginActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
+            }
+        });
+
+
+
+        CardView card_view = (CardView) findViewById(R.id.Aboutcard);
+
+        card_view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               startActivity(new Intent(fusiontechbcapble3.this,aboutus2.class));
             }
         });
     }

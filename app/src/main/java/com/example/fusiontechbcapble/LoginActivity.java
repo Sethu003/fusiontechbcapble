@@ -93,4 +93,16 @@ public class LoginActivity extends AppCompatActivity {
 
         //setContentView(R.layout.activity_login);
     }
+    @Override
+    protected void onStart(){
+        super.onStart();
+        if (auth.getCurrentUser() != null){
+            Toast.makeText(LoginActivity.this,"Already logged in!",Toast.LENGTH_SHORT).show();
+
+            startActivity(new Intent(LoginActivity.this,fusiontechbcapble3.class));
+        } else{
+            Toast.makeText(LoginActivity.this,"Login ",Toast.LENGTH_SHORT).show();
+        }
+    }
+
 }
