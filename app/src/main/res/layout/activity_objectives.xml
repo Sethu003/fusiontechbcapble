@@ -4,16 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFEB3B"
     tools:context=".objectives">
 
+<ScrollView
+    android:layout_width="412dp"
+    android:layout_height="800dp"
+    android:id="@+id/scrollview8">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:overScrollMode="never"
-        android:scrollbars="vertical"
-        tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="288dp" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About the club:
+\n Fusion Tech, the BCA club was started during the academic year 2017-18, under the guidance of the Department of Computer Science. It aims to provide exposure to the students by bringing awareness of the latest technologies through workshops by industry experts, alumni talks, conducting various competitions that test the technical skillset of the students
+
+\n\nObjectives : \n
+The Club motivates the students to come up with their own startup ideas.
+Helps in building technical and business confidence.
+It encourages the students to participate in various extracurricular activities such as Group Discussions, Emoji Designing, Sports, and Technical Quiz etc.
+\n\nFunctions :\n
+Provide opportunity to interact with industry experts by organizing workhops to bridge the gap between industry and academia.
+Provide opportunity to interact with alumni which helps the students to setup their career path for their bright future.
+To inculcate knowledge among students with respective to programming languages and other latest technologies in computer science by organizing guest lectures with subject experts.
+Organizes the events/competitions such as quiz, problem solving, paper presentations, Group Discussions, startup ideas to improve their intellectutal ability.
+Organizes the sports events to build the students physical fitness."
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black">
+
+    </TextView>
+</LinearLayout>
 
 
-
+</ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
